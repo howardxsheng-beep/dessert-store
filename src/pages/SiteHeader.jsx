@@ -5,7 +5,7 @@ function SiteHeader() {
         <div className="w-full min-w-0 h-[84px]  max-w-[940px] mx-auto px-4 sm:px-6 md:px-[30px] sm:h-[100px]">
   <div className="flex items-center justify-between h-full">
     {/* 左側漢堡 */}
-    <div className="flex items-center w-[24px] h-[24px]  sm:hidden">
+    <div className="flex items-center w-[24px] h-[24px] shrink-0  sm:hidden">
       <img
         src="./src/images/dehaze-24px.png"
         className="h-[24px] w-auto object-cover"
