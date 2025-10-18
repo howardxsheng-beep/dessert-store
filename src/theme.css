@@ -1,0 +1,26 @@
+
+@theme {
+  /* ===== Colors ===== */
+  --color-dark-green: #3F5D45;        /* 深綠（主要文字） */
+  --color-light-green: #8DA291;  /* 次要文字 */
+  --color-surface: #FFFFFF;    /* 白底 */
+  --color-surface-2: #EAF0ED;  /* 淺綠底 */
+  --color-light-yellow: #FFE180;     /* 黃（估值，若不同請改） */
+  --color-ink-inverse: #FFFFFF;
+  --color-test: #CC0000; 
+
+  /* Tailwind 類名：text-ink / bg-surface / text-ink-muted / bg-surface-2 / text-ink-inverse ... */
+
+  /* ===== Fonts ===== */
+  --font-ping-fang: "PingFang TC", "Noto Sans TC", system-ui, -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --font-Helvetica: "Helvetica Neue", Arial, "Noto Sans TC", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-Times: "Times New Roman", Times, serif;
+
+  /* ===== Text sizes（依設計稿建 Token）===== */
+  --text-h-lg: 24px;   /* 例：PingFang TC Semibold 24px */
+  --text-body-lg: 20px;
+
+  /* 也能做 RWD 流動字級，例如：
+     --text-h-lg: clamp(20px, 2.2vw, 24px);
+  */
+}

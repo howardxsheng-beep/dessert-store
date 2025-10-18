@@ -1,4 +1,6 @@
+@import "./theme.css";
 @import "tailwindcss";
+
 
 @layer utilities {
   * { outline: 1px dashed rgba(0,128,255,.35); outline-offset: -1px; }

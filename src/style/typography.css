@@ -1,0 +1,49 @@
+@layer components {
+  /* ===== 導覽/標題：PingFang Semibold 24px 深綠 ===== */
+  .ty-heading-lg {
+    @apply font-ping-fang font-semibold text-text-darkGreen text-h-lg;
+  }
+
+  /* 深色底上的白字標題 */
+  .ty-heading-lg-inverse {
+    @apply font-ping-fang font-semibold text-ink-inverse text-h-lg;
+  }
+
+  /* ===== 內文：Helvetica Regular 16px 深綠（無 token 時 fallback 16px） ===== */
+  .ty-body {
+    font-size: var(--text-body, 16px);
+    @apply font-Helvetica font-normal text-text-darkGreen;
+  }
+
+  /* 內文大一號：20px（你有 token） */
+  .ty-body-lg {
+    @apply font-Helvetica font-normal text-text-darkGreen text-body-lg;
+  }
+
+  /* 內文（次要/淺綠） */
+  .ty-body-muted {
+    font-size: var(--text-body, 16px);
+    @apply font-Helvetica font-normal text-text-lightGreen;
+  }
+
+  /* Times 版本（常用於特殊標題或引言） */
+  .ty-serif {
+    font-size: var(--text-body, 16px);
+    @apply font-Times font-normal text-text-darkGreen;
+  }
+
+  /* ===== 小工具：色塊 / 強調按鈕 ===== */
+  .btn-accent {
+    @apply inline-flex items-center justify-center
+           rounded-md px-5 py-2
+           bg-light-yellow text-text-darkGreen
+           font-ping-fang font-semibold;
+  }
+
+  .surface {
+    @apply bg-surface text-text-darkGreen;
+  }
+  .surface-2 {
+    @apply bg-surface-2 text-text-darkGreen;
+  }
+}
