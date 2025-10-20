@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import SiteHeader from './pages/SiteHeader'
 import MailDist from './pages/MailDist'
+import Home from './pages/home'
 
 
 function App() {
@@ -11,8 +12,9 @@ function App() {
 
   return (
     <>
-      <SiteHeader/>
-      <MailDist/>
+      {/* <SiteHeader/> */}
+      <Home/>
+      {/* <MailDist/> */}
     </>
   )
 }
