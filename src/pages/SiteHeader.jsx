@@ -7,7 +7,7 @@ function SiteHeader() {
     {/* 左側漢堡 */}
     <div className="flex items-center w-[24px] h-[24px] shrink-0  sm:hidden">
       <img
-        src="./src/images/dehaze-24px.png"
+        src="images/dehaze-24px.png"
         className="h-[24px] w-auto object-cover"
         alt="menu"
       />
@@ -16,12 +16,12 @@ function SiteHeader() {
     {/* 中間 logo */}
     <div className="flex items-center ">
       <img
-        src="./src/images/logo-all-dark.svg"
+        src="images/logo-all-dark.svg"
         className="hidden h-[40px] w-auto sm:block"
         alt="logo-large"
       />
       <img
-        src="./src/images/logotype-sm-dark.svg"
+        src="images/logotype-sm-dark.svg"
         className="sm:hidden h-[17.74px] w-auto"
         alt="logo-small"
       />
@@ -37,7 +37,7 @@ function SiteHeader() {
         </ul>
       </nav>
       <a href="#" className="flex justify-center w-[24px] h-[24px]">
-        <img src="./src/images/shopping_cart.png" alt="cart" />
+        <img src="images/shopping_cart.png" alt="cart" />
       </a>
     </div>
   </div>
