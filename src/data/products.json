@@ -1,363 +1,363 @@
-[
+
 [
   {
     "id": "p001",
     "name": "焦糖馬卡龍",
     "price": 120,
-    "img": "/images/p-01.png"
+    "img": "images/p-1.png"
   },
   {
     "id": "p002",
     "name": "抹茶千層",
     "price": 150,
-    "img": "/images/p-02.png"
+    "img": "/images/p-2.png"
   },
   {
     "id": "p003",
     "name": "莓果塔",
     "price": 180,
-    "img": "/images/p-03.png"
+    "img": "/images/p-3.png"
   },
   {
     "id": "p004",
     "name": "巴斯克起司",
     "price": 200,
-    "img": "/images/p-04.png"
+    "img": "/images/p-4.png"
   },
   {
     "id": "p005",
     "name": "檸檬塔",
     "price": 220,
-    "img": "/images/p-05.png"
+    "img": "/images/p-5.png"
   },
   {
     "id": "p006",
     "name": "可麗露",
     "price": 240,
-    "img": "/images/p-06.png"
+    "img": "/images/p-6.png"
   },
   {
     "id": "p007",
     "name": "達克瓦茲",
     "price": 260,
-    "img": "/images/p-01.png"
+    "img": "/images/p-1.png"
   },
   {
     "id": "p008",
     "name": "提拉米蘇",
     "price": 280,
-    "img": "/images/p-02.png"
+    "img": "/images/p-2.png"
   },
   {
     "id": "p009",
     "name": "蒙布朗",
     "price": 300,
-    "img": "/images/p-03.png"
+    "img": "/images/p-3.png"
   },
   {
     "id": "p010",
     "name": "費南雪",
     "price": 320,
-    "img": "/images/p-04.png"
+    "img": "/images/p-4.png"
   },
   {
     "id": "p011",
     "name": "瑪德蓮",
     "price": 350,
-    "img": "/images/p-05.png"
+    "img": "/images/p-5.png"
   },
   {
     "id": "p012",
     "name": "奶油泡芙",
     "price": 380,
-    "img": "/images/p-06.png"
+    "img": "/images/p-6.png"
   },
   {
     "id": "p013",
     "name": "黑糖布丁",
     "price": 420,
-    "img": "/images/p-01.png"
+    "img": "/images/p-1.png"
   },
   {
     "id": "p014",
     "name": "巧克力布朗尼",
     "price": 450,
-    "img": "/images/p-02.png"
+    "img": "/images/p-2.png"
   },
   {
     "id": "p015",
     "name": "藍莓起司",
     "price": 480,
-    "img": "/images/p-03.png"
+    "img": "/images/p-3.png"
   },
   {
     "id": "p016",
     "name": "草莓生乳捲",
     "price": 520,
-    "img": "/images/p-04.png"
+    "img": "/images/p-4.png"
   },
   {
     "id": "p017",
     "name": "焦糖馬卡龍",
     "price": 120,
-    "img": "/images/p-05.png"
+    "img": "/images/p-5.png"
   },
   {
     "id": "p018",
     "name": "抹茶千層",
     "price": 150,
-    "img": "/images/p-06.png"
+    "img": "/images/p-6.png"
   },
   {
     "id": "p019",
     "name": "莓果塔",
     "price": 180,
-    "img": "/images/p-01.png"
+    "img": "/images/p-1.png"
   },
   {
     "id": "p020",
     "name": "巴斯克起司",
     "price": 200,
-    "img": "/images/p-02.png"
+    "img": "/images/p-2.png"
   },
   {
     "id": "p021",
     "name": "檸檬塔",
     "price": 220,
-    "img": "/images/p-03.png"
+    "img": "/images/p-3.png"
   },
   {
     "id": "p022",
     "name": "可麗露",
     "price": 240,
-    "img": "/images/p-04.png"
+    "img": "/images/p-4.png"
   },
   {
     "id": "p023",
     "name": "達克瓦茲",
     "price": 260,
-    "img": "/images/p-05.png"
+    "img": "/images/p-5.png"
   },
   {
     "id": "p024",
     "name": "提拉米蘇",
     "price": 280,
-    "img": "/images/p-06.png"
+    "img": "/images/p-6.png"
   },
   {
     "id": "p025",
     "name": "蒙布朗",
     "price": 300,
-    "img": "/images/p-01.png"
+    "img": "/images/p-1.png"
   },
   {
     "id": "p026",
     "name": "費南雪",
     "price": 320,
-    "img": "/images/p-02.png"
+    "img": "/images/p-2.png"
   },
   {
     "id": "p027",
     "name": "瑪德蓮",
     "price": 350,
-    "img": "/images/p-03.png"
+    "img": "/images/p-3.png"
   },
   {
     "id": "p028",
     "name": "奶油泡芙",
     "price": 380,
-    "img": "/images/p-04.png"
+    "img": "/images/p-4.png"
   },
   {
     "id": "p029",
     "name": "黑糖布丁",
     "price": 420,
-    "img": "/images/p-05.png"
+    "img": "/images/p-5.png"
   },
   {
     "id": "p030",
     "name": "巧克力布朗尼",
     "price": 450,
-    "img": "/images/p-06.png"
+    "img": "/images/p-6.png"
   },
   {
     "id": "p031",
     "name": "藍莓起司",
     "price": 480,
-    "img": "/images/p-01.png"
+    "img": "/images/p-1.png"
   },
   {
     "id": "p032",
     "name": "草莓生乳捲",
     "price": 520,
-    "img": "/images/p-02.png"
+    "img": "/images/p-2.png"
   },
   {
     "id": "p033",
     "name": "焦糖馬卡龍",
     "price": 120,
-    "img": "/images/p-03.png"
+    "img": "/images/p-3.png"
   },
   {
     "id": "p034",
     "name": "抹茶千層",
     "price": 150,
-    "img": "/images/p-04.png"
+    "img": "/images/p-4.png"
   },
   {
     "id": "p035",
     "name": "莓果塔",
     "price": 180,
-    "img": "/images/p-05.png"
+    "img": "/images/p-5.png"
   },
   {
     "id": "p036",
     "name": "巴斯克起司",
     "price": 200,
-    "img": "/images/p-06.png"
+    "img": "/images/p-6.png"
   },
   {
     "id": "p037",
     "name": "檸檬塔",
     "price": 220,
-    "img": "/images/p-01.png"
+    "img": "/images/p-1.png"
   },
   {
     "id": "p038",
     "name": "可麗露",
     "price": 240,
-    "img": "/images/p-02.png"
+    "img": "/images/p-2.png"
   },
   {
     "id": "p039",
     "name": "達克瓦茲",
     "price": 260,
-    "img": "/images/p-03.png"
+    "img": "/images/p-3.png"
   },
   {
     "id": "p040",
     "name": "提拉米蘇",
     "price": 280,
-    "img": "/images/p-04.png"
+    "img": "/images/p-4.png"
   },
   {
     "id": "p041",
     "name": "蒙布朗",
     "price": 300,
-    "img": "/images/p-05.png"
+    "img": "/images/p-5.png"
   },
   {
     "id": "p042",
     "name": "費南雪",
     "price": 320,
-    "img": "/images/p-06.png"
+    "img": "/images/p-6.png"
   },
   {
     "id": "p043",
     "name": "瑪德蓮",
     "price": 350,
-    "img": "/images/p-01.png"
+    "img": "/images/p-1.png"
   },
   {
     "id": "p044",
     "name": "奶油泡芙",
     "price": 380,
-    "img": "/images/p-02.png"
+    "img": "/images/p-2.png"
   },
   {
     "id": "p045",
     "name": "黑糖布丁",
     "price": 420,
-    "img": "/images/p-03.png"
+    "img": "/images/p-3.png"
   },
   {
     "id": "p046",
     "name": "巧克力布朗尼",
     "price": 450,
-    "img": "/images/p-04.png"
+    "img": "/images/p-4.png"
   },
   {
     "id": "p047",
     "name": "藍莓起司",
     "price": 480,
-    "img": "/images/p-05.png"
+    "img": "/images/p-5.png"
   },
   {
     "id": "p048",
     "name": "草莓生乳捲",
     "price": 520,
-    "img": "/images/p-06.png"
+    "img": "/images/p-6.png"
   },
   {
     "id": "p049",
     "name": "焦糖馬卡龍",
     "price": 120,
-    "img": "/images/p-01.png"
+    "img": "/images/p-1.png"
   },
   {
     "id": "p050",
     "name": "抹茶千層",
     "price": 150,
-    "img": "/images/p-02.png"
+    "img": "/images/p-2.png"
   },
   {
     "id": "p051",
     "name": "莓果塔",
     "price": 180,
-    "img": "/images/p-03.png"
+    "img": "/images/p-3.png"
   },
   {
     "id": "p052",
     "name": "巴斯克起司",
     "price": 200,
-    "img": "/images/p-04.png"
+    "img": "/images/p-4.png"
   },
   {
     "id": "p053",
     "name": "檸檬塔",
     "price": 220,
-    "img": "/images/p-05.png"
+    "img": "/images/p-5.png"
   },
   {
     "id": "p054",
     "name": "可麗露",
     "price": 240,
-    "img": "/images/p-06.png"
+    "img": "/images/p-6.png"
   },
   {
     "id": "p055",
     "name": "達克瓦茲",
     "price": 260,
-    "img": "/images/p-01.png"
+    "img": "/images/p-1.png"
   },
   {
     "id": "p056",
     "name": "提拉米蘇",
     "price": 280,
-    "img": "/images/p-02.png"
+    "img": "/images/p-2.png"
   },
   {
     "id": "p057",
     "name": "蒙布朗",
     "price": 300,
-    "img": "/images/p-03.png"
+    "img": "/images/p-3.png"
   },
   {
     "id": "p058",
     "name": "費南雪",
     "price": 320,
-    "img": "/images/p-04.png"
+    "img": "/images/p-4.png"
   },
   {
     "id": "p059",
     "name": "瑪德蓮",
     "price": 350,
-    "img": "/images/p-05.png"
+    "img": "/images/p-5.png"
   },
   {
     "id": "p060",
     "name": "奶油泡芙",
     "price": 380,
-    "img": "/images/p-06.png"
+    "img": "/images/p-6.png"
   }
-]]
+]
