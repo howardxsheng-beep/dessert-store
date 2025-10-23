@@ -19,6 +19,18 @@ function MailDist(){
                 </div>
             </div>
 
+
+        </div>
+        <div className="flex flex-col relative  w-full bg-surface-2  ">
+            <div className="flex items-center justify-center h-[105px] max-x-[235px]"><img src="images/logotype-sm-dark.svg" className="  bolck  h-[27px]"></img></div>
+            <div className="ml-[30px] flex items-center  max-w-[227px] break-words">07-1234-5678<br/> sweetaste@email.com<br/>00 高雄市新興區幸福路 520 號</div>
+            <div className="flex flex-col">
+                <div className="flex mt-[37px] ml-[30px]">
+                <img className="h-[32px] aspect-square" src="images/ic-line@.svg"></img>
+                <img className="h-[32px] aspect-square" src="images/ic-facebook.svg"></img>
+                </div>
+                <p className="block mt-[23px] mb-[30px] ml-[30px]">© 2018 Sweetaste* All Rights Reserved</p>
+            </div>
         </div>
         </>
     );
