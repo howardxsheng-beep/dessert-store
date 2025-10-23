@@ -12,8 +12,8 @@ function App() {
 
   return (
     <>
-      <SiteHeader/>
-      <Home/>
+      {/* <SiteHeader/> */}
+      {/* <Home/> */}
       <MailDist/>
     </>
   )

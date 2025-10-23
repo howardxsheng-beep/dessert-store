@@ -21,17 +21,24 @@ function MailDist(){
 
 
         </div>
-        <div className="flex flex-col relative  w-full bg-surface-2  ">
-            <div className="flex items-center justify-center h-[105px] max-x-[235px]"><img src="images/logotype-sm-dark.svg" className="  bolck  h-[27px]"></img></div>
-            <div className="ml-[30px] flex items-center  max-w-[227px] break-words">07-1234-5678<br/> sweetaste@email.com<br/>00 高雄市新興區幸福路 520 號</div>
-            <div className="flex flex-col">
-                <div className="flex mt-[37px] ml-[30px]">
-                <img className="h-[32px] aspect-square" src="images/ic-line@.svg"></img>
-                <img className="h-[32px] aspect-square" src="images/ic-facebook.svg"></img>
-                </div>
-                <p className="block mt-[23px] mb-[30px] ml-[30px]">© 2018 Sweetaste* All Rights Reserved</p>
+        <footer className="flex flex-col relative  w-full bg-surface-2    ">
+            <div className="max-w-[780px] mx-auto w-full ">
+            <div className="flex items-center justify-between  ml-[30px] h-[105px] max-x-[235px] sm:ml-0">
+                <img src="images/logotype-sm-dark.svg" className="  bolck  h-[27px]"></img>
+                <img className="hidden h-[219px] sm:self-start sm:mt-[30px] sm:block" src="images/sm-今天是個吃甜點的好日子@2x.png"></img>
             </div>
-        </div>
+            <div className="text-dark-green ml-[30px] flex items-center sm:mt-[53px] sm:ml-0 ">07-1234-5678<br/> sweetaste@email.com<br/>800 高雄市新興區幸福路 520 號</div>
+            
+            
+            <div className="sm:items-end flex flex-col sm:justify-between sm:flex-row">
+                <div className="flex mt-[37px] ml-[30px] gap-2 sm:mb-[30px] sm:ml-0">
+                    <img className="h-[32px] aspect-square" src="images/ic-line@.svg"></img>
+                    <img className="h-[32px] aspect-square" src="images/ic-facebook.svg"></img>
+                </div>
+                <div><p className=" mt-[23px] mb-[30px] ml-[30px] text-dark-green sm:mb-[30px] sm:justify-end">© 2018 Sweetaste* All Rights Reserved</p></div>
+            </div>
+            </div>
+        </footer>
         </>
     );
 }
