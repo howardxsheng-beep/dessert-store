@@ -6,6 +6,7 @@ import SiteHeader from './pages/SiteHeader'
 import MailDist from './pages/MailDist'
 import Home from './pages/Home'
 import Product from './pages/Product'
+import Login from './pages/Login'
 
 
 function App() {
@@ -14,9 +15,10 @@ function App() {
   return (
     <>
       <SiteHeader/>
-      <Product/>
+      {/* <Product/> */}
       {/* <Home/> */}
-      {/* <MailDist/> */}
+      <Login/>
+      <MailDist/>
     </>
   )
 }
