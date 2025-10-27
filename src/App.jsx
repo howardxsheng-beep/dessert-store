@@ -10,6 +10,7 @@ import Login from './pages/Login'
 import Cart from './pages/Cart'
 import Shipping from './pages/Shipping'
 import CheckoutSuccess from './pages/CheckoutSuccess'
+import Payment from './pages/Payment'
 
 
 function App() {
@@ -23,8 +24,10 @@ function App() {
       {/* <Login/> */}
       {/* <Cart/> */}
       {/* <Shipping/> */}
-      <CheckoutSuccess/>
+      {/* <CheckoutSuccess/> */}
+      <Payment/>
       {/* <MailDist/> */}
+      
     </>
   )
 }

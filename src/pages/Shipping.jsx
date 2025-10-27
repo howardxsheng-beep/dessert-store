@@ -64,7 +64,7 @@ function Shipping() {
 
 
         <div className="hidden sm:flex sm:flex-col gap-6 
-                          sm:w-[clamp(220px,30vw,300px)] sm:min-w-[220px] sm:shrink-[3] ml-5">
+                          sm:w-[300px] sm:min-w-[220px] sm:shrink-[3] ml-5">
           {/* 右:訂單摘要 */}
           <div className=" border text-light-green border-surface-2/60">
             <div className="h-[65px] grid place-items-center text-light-green bg-surface-2 text-2xl font-semibold">
