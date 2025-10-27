@@ -3,7 +3,7 @@ function Shipping() {
     <section className="w-full flex justify-center">
         <div></div>
       <div className="w-full sm:max-w-[780px]  sm:px-0 flex flex-col sm:flex-row sm:items-start gap-0">
-        {/* 左：運送表單（手機滿寬，sm 起為主要欄位，不被擠） */}
+        {/* 左：運送表單 */}
         <div className="bg-dark-green text-surface-2 w-full text-xl
                         sm:flex-1 sm:min-w-[300px] sm:max-w-[460px] sm:shrink-0
                         p-[30px] sm:pb-0 sm:p-[40px]">
@@ -65,7 +65,7 @@ function Shipping() {
 
         <div className="hidden sm:flex sm:flex-col gap-6 
                           sm:w-[clamp(220px,30vw,300px)] sm:min-w-[220px] sm:shrink-[3] ml-5">
-          {/* 訂單摘要 */}
+          {/* 右:訂單摘要 */}
           <div className=" border text-light-green border-surface-2/60">
             <div className="h-[65px] grid place-items-center text-light-green bg-surface-2 text-2xl font-semibold">
               訂單摘要
