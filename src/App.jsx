@@ -9,6 +9,7 @@ import Product from './pages/Product'
 import Login from './pages/Login'
 import Cart from './pages/Cart'
 import Shipping from './pages/Shipping'
+import CheckoutSuccess from './pages/CheckoutSuccess'
 
 
 function App() {
@@ -21,7 +22,8 @@ function App() {
       {/* <Home/> */}
       {/* <Login/> */}
       {/* <Cart/> */}
-      <Shipping/>
+      {/* <Shipping/> */}
+      <CheckoutSuccess/>
       {/* <MailDist/> */}
     </>
   )
