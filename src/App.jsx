@@ -11,6 +11,7 @@ import Cart from './pages/Cart'
 import Shipping from './pages/Shipping'
 import CheckoutSuccess from './pages/CheckoutSuccess'
 import Payment from './pages/Payment'
+import Invoice from './pages/Invoice'
 
 
 function App() {
@@ -25,9 +26,9 @@ function App() {
       {/* <Cart/> */}
       {/* <Shipping/> */}
       {/* <CheckoutSuccess/> */}
-      <Payment/>
+      {/* <Payment/> */}
       {/* <MailDist/> */}
-      
+      <Invoice/>
     </>
   )
 }
