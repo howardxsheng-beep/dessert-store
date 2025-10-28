@@ -57,14 +57,15 @@ function Shipping() {
           </form>
 
           {/* 下一步 */}
-          <button className="hidden sm:block mt-[30px] h-[65px]  bg-light-yellow text-dark-green text-2xl font-semibold -mx-[40px]  w-[calc(100%+80px)]">
+          <button type="submit" className="hidden sm:block mt-[30px] h-[65px]  bg-light-yellow text-dark-green text-2xl font-semibold -mx-[40px] hover:brightness-90 group cursor-pointer hover:text-3xl w-[calc(100%+80px)]">
             下一步
           </button>
         </div>
 
 
         <div className="hidden sm:flex sm:flex-col gap-6 
-                          sm:w-[300px] sm:min-w-[220px] sm:shrink-[3] ml-5">
+                          sm:w-[300px]
+                           sm:min-w-[220px] sm:shrink-[3] ml-5">
           {/* 右:訂單摘要 */}
           <div className=" border text-light-green border-surface-2/60">
             <div className="h-[65px] grid place-items-center text-light-green bg-surface-2 text-2xl font-semibold">
@@ -101,7 +102,7 @@ function Shipping() {
         </div>
 
         {/* 手機-下一步*/}
-        <div className="sm:hidden grid h-[65px] w-full bg-light-yellow text-dark-green text-2xl font-semibold  place-items-center">
+        <div className="sm:hidden grid h-[65px] w-full bg-light-yellow text-dark-green text-2xl font-semibold  place-items-center hover:brightness-90 group cursor-pointer hover:text-3xl ">
           下一步
         </div>
       </div>

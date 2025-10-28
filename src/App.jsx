@@ -23,8 +23,8 @@ function App() {
       {/* <Product/> */}
       {/* <Home/> */}
       {/* <Login/> */}
-      <Cart/>
-      {/* <Shipping/> */}
+      {/* <Cart/> */}
+      <Shipping/>
       {/* <CheckoutSuccess/> */}
       {/* <Payment/> */}
       {/* <MailDist/> */}
