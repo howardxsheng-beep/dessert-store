@@ -77,7 +77,7 @@ function Invoice() {
                   </label>
 
                   <label className="flex flex-col justify-end">
-                    <div className="hidden sm:inline-flex justify-end mb-2">
+                    <div className="hidden items-center sm:inline-flex justify-end mb-2">
                       <input
                         type="checkbox"
                         className="h-5 w-5 accent-light-yellow"

@@ -49,7 +49,7 @@ function Login() {
               ></input>
             </div>
 
-            <label className="mx-auto w-full max-w-[315px] sm:max-w-[330px] md:max-w-[380px] mt-4 flex items-center mb-[30px] sm:mb-[25px]">
+            <label className="mx-auto w-full max-w-[315px] sm:max-w-[330px] md:ml-[30px] md:max-w-[380px] mt-4 flex items-center mb-[30px] sm:mb-[25px]">
               <input type="checkbox" className="shrink-0" />
               <span className="ml-2 text-surface-2">記住我</span>
             </label>
