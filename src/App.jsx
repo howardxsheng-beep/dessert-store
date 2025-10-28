@@ -20,9 +20,9 @@ function App() {
   return (
     <>
       {/* <SiteHeader/> */}
-      <Product/>
+      {/* <Product/> */}
       {/* <Home/> */}
-      {/* <Login/> */}
+      <Login/>
       {/* <Cart/> */}
       {/* <Shipping/> */}
       {/* <CheckoutSuccess/> */}
