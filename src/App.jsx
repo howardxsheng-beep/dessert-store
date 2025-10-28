@@ -19,7 +19,7 @@ function App() {
 
   return (
     <>
-      <SiteHeader/>
+      {/* <SiteHeader/> */}
       {/* <Product/> */}
       {/* <Home/> */}
       {/* <Login/> */}
@@ -27,7 +27,7 @@ function App() {
       {/* <Shipping/> */}
       {/* <CheckoutSuccess/> */}
       {/* <Payment/> */}
-      {/* <MailDist/> */}
+      <MailDist/>
       {/* <Invoice/> */}
     </>
   )

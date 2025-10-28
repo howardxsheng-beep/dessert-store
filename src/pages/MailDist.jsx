@@ -13,14 +13,22 @@ function MailDist(){
     
                 <div className="flex justify-between mx-auto w-full max-w-[315px] h-[56px] bg-surface-2 sm:max-w-[330px] md:max-w-[380px]sm:mx-0 sm:mr-[20px] md:mr-[80px] ">
                 <img className="flex h-6 ml-5 my-auto  " src="images/mail-24px.png"></img>
-                <div className=" flex flex-end w-[64px] h-[56px] bg-light-yellow">
-                    <img className="mx-auto my-auto w-4 h-4  flex items-center justify-center" src="images/arrow_forward-24px.png    "></img>
-                </div>
+                <input
+                    type="email"
+                    required
+                    autoComplete="email"
+                
+                    className="ml-3 w-full bg-transparent outline-none text-dark-green
+                            placeholder:text-light-green"
+                />
+                <button type="submit" className="cursor-pointer flex flex-end w-[64px] h-[56px] bg-light-yellow hover:bg-yellow-300 group">
+                    <img className="mx-auto my-auto w-4 h-4 group-hover:scale-120 " src="images/arrow_forward-24px.png"></img>
+                </button>
                 </div>
             </div>
-
-
         </div>
+        
+    
         <footer className="flex flex-col relative  w-full bg-surface-2    ">
             <div className="max-w-[780px] mx-auto w-full ">
             <div className="flex items-center justify-between  ml-[30px] h-[105px] max-x-[235px] sm:ml-0">
@@ -32,8 +40,8 @@ function MailDist(){
             
             <div className="sm:items-end flex flex-col sm:justify-between sm:flex-row">
                 <div className="flex mt-[37px] ml-[30px] gap-2 sm:mb-[30px] sm:ml-0">
-                    <img className="h-[32px] aspect-square" src="images/ic-line@.svg"></img>
-                    <img className="h-[32px] aspect-square" src="images/ic-facebook.svg"></img>
+                    <a target="_blank" href="https://www.instagram.com/"> <img className="h-[32px] aspect-square" src="images/ic-line@.svg"></img></a>
+                    <a target="_blank" href="https://www.facebook.com/"><img className="h-[32px] aspect-square" src="images/ic-facebook.svg"></img></a>
                 </div>
                 <div><p className=" mt-[23px] mb-[30px] ml-[30px] text-dark-green sm:mb-[30px] sm:justify-end">© 2018 Sweetaste* All Rights Reserved</p></div>
             </div>
