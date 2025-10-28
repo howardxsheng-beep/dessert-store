@@ -1,12 +1,10 @@
-import { useState } from 'react'; // ← 新增
-
+import { useState } from "react"; // ← 新增
 
 function Invoice() {
-  const [invoiceType, setInvoiceType] = useState('electronic');
-  
+  const [invoiceType, setInvoiceType] = useState("electronic");
+
   return (
     <section className="w-full flex justify-center">
-
       <div className="w-full sm:max-w-[780px]  sm:px-0 flex flex-col sm:flex-row sm:items-start gap-0">
         {/* 左：運送表單 */}
         <div
@@ -26,80 +24,118 @@ function Invoice() {
 
           {/* 表單 */}
           <form className="grid grid-cols-1  ">
-          {/* 發票按鈕 */}
+            {/* 發票按鈕 */}
             <div className="bg-dark-green text-light-green  h-[56px] grid grid-cols-2 mb-[30px]  text-xl font-semibold">
               <button
-              type="button" 
-              onClick={() => setInvoiceType('electronic')}
-              className={`h-[56px] grid place-items-center text-xl font-semibold 
-              ${invoiceType === 'electronic' ? ' bg-surface-2 text-dark-green' : 'text-light-green border border-surface-2 hover:bg-surface-2/10'}
+                type="button"
+                onClick={() => setInvoiceType("electronic")}
+                className={`h-[56px] grid place-items-center text-xl font-semibold 
+              ${
+                invoiceType === "electronic"
+                  ? " bg-surface-2 text-dark-green"
+                  : "text-light-green border border-surface-2 hover:bg-surface-2/10"
+              }
               focus-visible:ring-2 focus-visible:ring-light-yellow focus-visible:ring-offset-2 focus-visible:ring-offset-dark-green`}
-              >電子發票</button>
+              >
+                電子發票
+              </button>
 
               <button
-              type="button"
-              onClick={() => setInvoiceType('post')}
-              className={`h-[56px] grid place-items-center text-xl font-semibold
-              ${invoiceType === 'post' ? ' bg-surface-2 text-dark-green' : 'text-light-green border border-surface-2 hover:bg-surface-2/10'}
+                type="button"
+                onClick={() => setInvoiceType("post")}
+                className={`h-[56px] grid place-items-center text-xl font-semibold
+              ${
+                invoiceType === "post"
+                  ? " bg-surface-2 text-dark-green"
+                  : "text-light-green border border-surface-2 hover:bg-surface-2/10"
+              }
               focus-visible:ring-2 focus-visible:ring-light-yellow focus-visible:ring-offset-2 focus-visible:ring-offset-dark-green`}
-              >郵寄發票</button>
+              >
+                郵寄發票
+              </button>
             </div>
-            {/* 郵寄發票 */}
+            {/* 郵寄發票表單 */}
 
-{invoiceType === 'post' && (
-  <div>
-    <div className="w-full grid grid-cols-2 gap-3 mb-2">
-      <label className="flex flex-col">
-        <span className="mb-2">地址</span>
-        <div className="h-[56px] px-5 bg-surface-2 text-light-green flex justify-between items-center">
-          <span className="flex">高雄市</span>
-          <div className="flex flex-col leading-none">
-            <img className="h-6 w-6 -mb-2" src="images/baseline-arrow-drop-up.png" />
-            <img className="h-6 w-6 -mt-2" src="images/baseline-arrow-drop-down.png" />
-          </div>
-        </div>
-      </label>
+            {invoiceType === "post" && (
+              <div>
+                <div className="w-full grid grid-cols-2 gap-3 mb-2">
+                  <label className="flex flex-col">
+                    <span className="mb-2">地址</span>
+                    <div className="h-[56px] px-5 bg-surface-2 text-light-green flex justify-between items-center">
+                      <span className="flex">高雄市</span>
+                      <div className="flex flex-col leading-none">
+                        <img
+                          className="h-6 w-6 -mb-2"
+                          src="images/baseline-arrow-drop-up.png"
+                        />
+                        <img
+                          className="h-6 w-6 -mt-2"
+                          src="images/baseline-arrow-drop-down.png"
+                        />
+                      </div>
+                    </div>
+                  </label>
 
-      <label className="flex flex-col justify-end">
-        <div className="hidden sm:inline-flex justify-end mb-2">
-          <input type="checkbox" className="h-5 w-5 accent-light-yellow" />
-          <span className="ml-2">同運送地址</span>
-        </div>
-        <div className="h-[56px] px-5 bg-surface-2 text-light-green flex justify-between items-center">
-          <span className="flex">新興區</span>
-          <div className="flex flex-col leading-none">
-            <img className="h-6 w-6 -mb-2" src="images/baseline-arrow-drop-up.png" />
-            <img className="h-6 w-6 -mt-2" src="images/baseline-arrow-drop-down.png" />
-          </div>
-        </div>
-      </label>
-    </div>
+                  <label className="flex flex-col justify-end">
+                    <div className="hidden sm:inline-flex justify-end mb-2">
+                      <input
+                        type="checkbox"
+                        className="h-5 w-5 accent-light-yellow"
+                      />
+                      <span className="ml-2">同運送地址</span>
+                    </div>
+                    <div className="h-[56px] px-5 bg-surface-2 text-light-green flex justify-between items-center">
+                      <span className="flex">新興區</span>
+                      <div className="flex flex-col leading-none">
+                        <img
+                          className="h-6 w-6 -mb-2"
+                          src="images/baseline-arrow-drop-up.png"
+                        />
+                        <img
+                          className="h-6 w-6 -mt-2"
+                          src="images/baseline-arrow-drop-down.png"
+                        />
+                      </div>
+                    </div>
+                  </label>
+                </div>
 
-    <label className="block mb-4">
-      <input className="h-[56px] w-full px-5 bg-surface-2 text-dark-green placeholder-light-green" placeholder="幸福路520號" />
-    </label>
+                <label className="block mb-4">
+                  <input
+                    className="h-[56px] w-full px-5 bg-surface-2 text-dark-green placeholder-light-green"
+                    placeholder="幸福路520號"
+                  />
+                </label>
 
-    <label className="block">
-      <span>統一編號(選填)</span>
-      <input className="h-[56px] w-full px-5 bg-surface-2 text-dark-green placeholder-light-green mt-2" placeholder="12345678" />
-    </label>
-  </div>
-)}
+                <label className="block">
+                  <span>統一編號(選填)</span>
+                  <input
+                    className="h-[56px] w-full px-5 bg-surface-2 text-dark-green placeholder-light-green mt-2"
+                    placeholder="12345678"
+                  />
+                </label>
+              </div>
+            )}
+            {/* 電子郵件表單 */}
+            {invoiceType === "electronic" && (
+              <div className="space-y-4">
+                <label className="block">
+                  <span>電子郵件</span>
+                  <input
+                    className="h-[56px] w-full px-5 bg-surface-2 text-dark-green placeholder-light-green mt-2"
+                    placeholder="example@email.com"
+                  />
+                </label>
 
-
-{invoiceType === 'electronic' && (
-  <div className="space-y-4">
-    <label className="block">
-      <span>電子郵件</span>
-      <input className="h-[56px] w-full px-5 bg-surface-2 text-dark-green placeholder-light-green mt-2" placeholder="example@email.com" />
-    </label>
-
-    <label className="block">
-      <span>統一編號(選填)</span>
-      <input className="h-[56px] w-full px-5 bg-surface-2 text-dark-green placeholder-light-green mt-2" placeholder="12345678" />
-    </label>
-  </div>
-)}
+                <label className="block">
+                  <span>統一編號(選填)</span>
+                  <input
+                    className="h-[56px] w-full px-5 bg-surface-2 text-dark-green placeholder-light-green mt-2"
+                    placeholder="12345678"
+                  />
+                </label>
+              </div>
+            )}
           </form>
 
           {/* 下一步 */}
