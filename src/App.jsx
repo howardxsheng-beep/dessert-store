@@ -22,8 +22,8 @@ function App() {
       {/* <SiteHeader/> */}
       {/* <Product/> */}
       {/* <Home/> */}
-      <Login/>
-      {/* <Cart/> */}
+      {/* <Login/> */}
+      <Cart/>
       {/* <Shipping/> */}
       {/* <CheckoutSuccess/> */}
       {/* <Payment/> */}

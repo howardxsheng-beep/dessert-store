@@ -3,8 +3,8 @@ function Cart(){
         <>
         <section className="flex flex-col justify-center items-center sm:flex-row ">
             <div className="w-full sm:w-auto sm:max-w-[620px] flex flex-col items-center">
-            <div className=" h-[110px] flex items-center justify-center bg-surface-2 w-full sm:h-[65px] sm:max-w-[620px]">
-                <h1 className="text-dark-green text-2xl font-semibold">您的購物車</h1>
+            <div className=" h-[110px] flex items-center justify-center bg-surface-2 w-full sm:h-[65px] sm:max-w-[620px]  ">
+                <h1 className="text-dark-green text-2xl font-semibold group-hover:scale-110">您的購物車</h1>
             </div>
             <ul className="w-full max-w-[315px] sm:max-w-[620px] mx-auto">
                 <li className="mt-[30px] grid max-w-[315px] w-full  border-light-green border-b pb-2 sm:max-w-[620px] sm:flex sm:h-[130px] sm:items-center sm:gap-3 md:gap-7 xl:gap-10">
@@ -80,14 +80,14 @@ function Cart(){
                     <p >NT$ 3,000</p>
                     </div>
                 </div>
-                    <div className="hidden sm:flex h-[65px] w-full bg-light-yellow justify-center items-center text-dark-green text-2xl font-semibold">
-                        <a>結帳</a>
-                    </div>
+                    <button type="submit" className=" hidden sm:flex h-[65px] w-full bg-light-yellow justify-center items-center text-dark-green text-2xl font-semibold hover:brightness-90 group cursor-pointer">
+                        <a className="group-hover:scale-110" >結帳</a>
+                    </button>
             </section>
-            <div className="sm:hidden w-full flex justify-center items-center h-[65px] mt-4 font-semibold text-2xl text-dark-green bg-light-yellow">
+            <button type="submit" className=" sm:hidden w-full flex justify-center items-center h-[65px] mt-4 font-semibold text-2xl text-dark-green bg-light-yellow hover:brightness-90 group cursor-pointer hover:text-3xl">
                 結帳
 
-            </div>
+            </button>
      
         </section>
         </>
