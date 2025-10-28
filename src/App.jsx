@@ -20,14 +20,14 @@ function App() {
   return (
     <>
       {/* <SiteHeader/> */}
-      {/* <Product/> */}
+      <Product/>
       {/* <Home/> */}
       {/* <Login/> */}
       {/* <Cart/> */}
       {/* <Shipping/> */}
       {/* <CheckoutSuccess/> */}
       {/* <Payment/> */}
-      <MailDist/>
+      {/* <MailDist/> */}
       {/* <Invoice/> */}
     </>
   )

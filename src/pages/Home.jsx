@@ -2,9 +2,9 @@ function Home() {
   const CARDS = [
     {
       img: "images/home-card-1.png",
-      overlay: "bg-light-yellow/80",
+      overlay: "bg-dark-green/80",
       text: "本日精選",
-      textColor: "text-dark-green",
+      textColor: "text-ink-inverse",
     },
     {
       img: "images/home-card-2.png",
@@ -28,6 +28,8 @@ function Home() {
     { textCol: "" },
     { textCol: "是非成敗轉頭空，滾滾長江東逝水，白" },
     { textCol: "樵江渚上，古今多少事，都付笑談中。" },
+    { textCol: "" },
+
   ];
 
   return (
@@ -40,9 +42,10 @@ function Home() {
         <div className=" w-full">
           <div className="mx-auto sm:mt-[-120px]  md:max-w-[780px] grid grid-cols-3 md:grid-cols-3 gap-[1px]">
             {CARDS.map(({ img, overlay, text, textColor }, i) => (
+              <a href="#">
               <div
                 key={i}
-                className="relative overflow-hidden w-full aspect-[125/180] sm:aspect-[259.67/256]  "
+                className="relative overflow-hidden w-full aspect-[125/180] sm:aspect-[259.67/256] group "
               >
                 <img
                   src={img}
@@ -50,16 +53,17 @@ function Home() {
                   className="absolute inset-0 blur  object-cover  aspect-[125/180] sm:aspect-[259.67/256]"
                 />
                 <div
-                  className={`absolute inset-0 ${overlay} mix-blend-normal`}
+                  className={`absolute inset-0 ${overlay} mix-blend-normal group-hover:bg-light-yellow/80`}
                 />
                 <div className="absolute inset-0  flex items-center justify-center">
                   <span
-                    className={`text-xl sm:text-2xl tracking-[0.24rem] sm:tracking-[0.3rem] leading-none  font-semibold ${textColor} [text-orientation:upright] [writing-mode:vertical-rl] `}
+                    className={`text-xl sm:text-2xl tracking-[0.24rem] sm:tracking-[0.3rem] leading-none  font-semibold ${textColor} [text-orientation:upright] [writing-mode:vertical-rl] group-hover:text-dark-green `}
                   >
                     {text}
                   </span>
                 </div>
               </div>
+              </a>
             ))}
           </div>
         </div>
@@ -117,14 +121,14 @@ function Home() {
       <section className="hidden sm:block">
         {/* 1 */}
         <div className="h-[420px] mt-[80px] mx-auto max-w-[1024px] bg-surface-2 ">
-          <div className="max-w-[940px] flex mx-auto w-full">
-            <div className="mt-[-20px] grid-cols-1 max-w-[460px] w-[460px] h-[460px]   overflow-hidden">
+          <div className="max-w-[940px] flex mx-auto w-full ">
+            <div className="mt-[-20px] grid-cols-1 max-w-[460px] w-full h-[460px] overflow-hidden">
               <img
                 className="w-full h-full  object-cover "
                 src="images/pancake.png"
               ></img>
             </div>
-            <div className="grid gap-y-4    h-[420px] w-[256px] [text-orientation:upright] [writing-mode:vertical-rl] mr-[55px] p-[30px] ml-auto  ">
+            <div className="grid gap-y-4 h-[420px] w-[256px] [text-orientation:upright] [writing-mode:vertical-rl] sm:mr-[0px] xl:mr-[55px] p-[30px] ml-auto  ">
               {POETRY.map(({ textCol }, i) => (
                 <p
                   key={i}
@@ -198,11 +202,11 @@ function Home() {
               NT$ 450
             </span>
           </div>
-          <div className="border-surface-2 border bg-surface-2 h-[65px] flex items-center justify-center ">
-            <a className=" text-dark-green text-2xl font-semibold" href="#">
+          <button type="submit" className="border-surface-2 border bg-surface-2 h-[65px] flex items-center w-full justify-center hover:bg-light-yellow group ">
+            <a className=" text-dark-green text-2xl font-semibold group-hover:scale-110 grouup-hover:brightness-150" href="#">
               加入購物車
             </a>
-          </div>
+          </button>
         </div>
 
         <div className="flex-shrink-0 w-full snap-start sm:max-w-[315px]  aspect-square relative ">
@@ -225,11 +229,11 @@ function Home() {
               NT$ 450
             </span>
           </div>
-          <div className="border-surface-2 border bg-surface-2 h-[65px] flex items-center justify-center ">
-            <a className=" text-dark-green text-2xl font-semibold" href="#">
+          <button type="submit" className="border-surface-2 border bg-surface-2 h-[65px] flex items-center w-full justify-center hover:bg-light-yellow group ">
+            <a className=" text-dark-green text-2xl font-semibold group-hover:scale-110 grouup-hover:brightness-150" href="#">
               加入購物車
             </a>
-          </div>
+          </button>
         </div>
 
         <div className="flex-shrink-0 w-full  snap-start aspect-square   sm:max-w-[315px] relative ">
@@ -252,12 +256,12 @@ function Home() {
               NT$ 450
             </span>
           </div>
-          <div className="border-surface-2 border bg-surface-2 h-[65px] flex items-center justify-center ">
-            <a className=" text-dark-green text-2xl font-semibold" href="#">
+          <button type="submit" className="border-surface-2 border bg-surface-2 h-[65px] flex items-center w-full justify-center hover:bg-light-yellow group ">
+            <a className=" text-dark-green text-2xl font-semibold group-hover:scale-110 grouup-hover:brightness-150" href="#">
               加入購物車
             </a>
+          </button>
           </div>
-        </div>
       </section>
     </main>
   );

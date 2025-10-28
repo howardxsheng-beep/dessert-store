@@ -31,10 +31,10 @@ function Product() {
       <div className="md:flex md:mt-[60px]">
         <ul className=" items-center md:w-[300px]">
           <li className=" font-semibold text-surface-2 text-h-lg bg-dark-green h-[65px] flex justify-center items-center"><a className="" href="#">甜點類別</a></li>
-          <li className=" border-surface-2 border-b font-semibold text-dark-green text-h-lg bg-surface-2 h-[65px] flex justify-center items-center"><a href="#">所有甜點</a></li>
-          <li className=" border-surface-2 border-b font-semibold text-dark-green text-h-lg h-[65px] flex justify-center items-center"><a href="#">本日精選</a></li>
-          <li className=" border-surface-2 border-b font-semibold text-dark-green text-h-lg h-[65px] flex justify-center items-center"><a href="#">人氣推薦</a></li>
-          <li className=" border-surface-2 border-b font-semibold text-dark-green text-h-lg h-[65px] flex justify-center items-center"><a href="#">新品上市</a></li>
+          <li className=" border-surface-2 border-b font-semibold text-dark-green text-h-lg h-[65px] flex justify-center items-center hover:bg-surface-2"><a href="#">所有甜點</a></li>
+          <li className=" border-surface-2 border-b font-semibold text-dark-green text-h-lg h-[65px] flex justify-center items-center hover:bg-surface-2"><a href="#">本日精選</a></li>
+          <li className=" border-surface-2 border-b font-semibold text-dark-green text-h-lg h-[65px] flex justify-center items-center hover:bg-surface-2"><a href="#">人氣推薦</a></li>
+          <li className=" border-surface-2 border-b font-semibold text-dark-green text-h-lg h-[65px] flex justify-center items-center hover:bg-surface-2"><a href="#">新品上市</a></li>
         </ul>
       </div>
       
@@ -47,7 +47,7 @@ function Product() {
           <span className="ml-[21px] tracking-[0.2rem]  text-base bg-dark-green text-surface-2 h-[108px] w-[38px]  inline-flex items-center justify-center  [text-orientation:upright] [writing-mode:vertical-rl] absolute top-0">本日精選</span>
           <img src="images/favorite_border.png" className="border-surface-2 absolute top-5 right-6 w-[25px] h-auto "></img>
           <div className="border-surface-2 border h-[56px] grid grid-cols-2"><span className="border-surface-2 border-r flex justify-center items-center text-dark-green font-light text-body-lg ">{p.name}</span><span className="text-body-lg font-semibold text-dark-green flex justify-center items-center ">NT$ {p.price}</span></div>
-          <div className="border-surface-2 border bg-surface-2 h-[65px] flex items-center justify-center "><a className=" text-dark-green text-2xl font-semibold" href="#">加入購物車</a></div>
+          <button className="border-surface-2 border bg-surface-2 h-[65px] flex items-center w-full justify-center group hover:bg-light-yellow"><a className=" text-dark-green text-2xl font-semibold  group-hover:scale-110" href="#">加入購物車</a></button>
           
           </div>
           ))}
@@ -59,10 +59,10 @@ function Product() {
     {/* 頁碼 */}
 
       {/* 分頁列 */}
-     <div className="w-full flex justify-center">
+     <div className="w-full mx-auto flex justify-center max-w-[940px]">
   <nav
     className="mt-[30px] flex h-[60px] border border-surface-2
-               divide-x divide-surface-2 rounded-md overflow-hidden select-none"
+               divide-x divide-surface-2 rounded-md overflow-hidden select-none md:ml-auto "
   >
     <button
       type="button"
