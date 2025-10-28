@@ -61,7 +61,7 @@ function Invoice() {
                 <div className="w-full grid grid-cols-2 gap-3 mb-2">
                   <label className="flex flex-col">
                     <span className="mb-2">地址</span>
-                    <div className="h-[56px] px-5 bg-surface-2 text-light-green flex justify-between items-center">
+                    <div className="h-[56px] px-5 bg-surface-2 text-light-green flex justify-between items-center text-base">
                       <span className="flex">高雄市</span>
                       <div className="flex flex-col leading-none">
                         <img
@@ -77,14 +77,14 @@ function Invoice() {
                   </label>
 
                   <label className="flex flex-col justify-end">
-                    <div className="hidden items-center sm:inline-flex justify-end mb-2">
+                    <div className=" hidden items-center sm:inline-flex justify-end mb-2">
                       <input
                         type="checkbox"
-                        className="h-5 w-5 accent-light-yellow"
+                        className="h-4 w-4 accent-light-yellow"
                       />
-                      <span className="ml-2">同運送地址</span>
+                      <span className="sm:text-base ml-2 md:text-">同運送地址</span>
                     </div>
-                    <div className="h-[56px] px-5 bg-surface-2 text-light-green flex justify-between items-center">
+                    <div className="h-[56px] px-5 bg-surface-2 text-light-green flex justify-between items-center text-base">
                       <span className="flex">新興區</span>
                       <div className="flex flex-col leading-none">
                         <img
@@ -102,7 +102,7 @@ function Invoice() {
 
                 <label className="block mb-4">
                   <input
-                    className="h-[56px] w-full px-5 bg-surface-2 text-dark-green placeholder-light-green"
+                    className="h-[56px] w-full px-5 bg-surface-2 text-dark-green placeholder-light-green text-base"
                     placeholder="幸福路520號"
                   />
                 </label>
@@ -110,7 +110,7 @@ function Invoice() {
                 <label className="block">
                   <span>統一編號(選填)</span>
                   <input
-                    className="h-[56px] w-full px-5 bg-surface-2 text-dark-green placeholder-light-green mt-2"
+                    className="h-[56px] w-full px-5 bg-surface-2 text-dark-green placeholder-light-green mt-2 placeholder:text-base"
                     placeholder="12345678"
                   />
                 </label>
@@ -122,15 +122,15 @@ function Invoice() {
                 <label className="block">
                   <span>電子郵件</span>
                   <input
-                    className="h-[56px] w-full px-5 bg-surface-2 text-dark-green placeholder-light-green mt-2"
+                    className="h-[56px] w-full px-5 bg-surface-2 text-dark-green placeholder-light-green mt-2 placeholder:text-base"
                     placeholder="example@email.com"
                   />
                 </label>
 
-                <label className="block">
-                  <span>統一編號(選填)</span>
+                <label className="block ">
+                  <span className="">統一編號(選填)</span>
                   <input
-                    className="h-[56px] w-full px-5 bg-surface-2 text-dark-green placeholder-light-green mt-2"
+                    className="h-[56px] w-full px-5 bg-surface-2 text-dark-green placeholder-light-green mt-2 text-base placeholder:text-base "
                     placeholder="12345678"
                   />
                 </label>
@@ -141,7 +141,7 @@ function Invoice() {
           {/* 下一步 */}
           <a
             href="#"
-            className="hidden sm:grid place-content-center mt-[30px] h-[65px]  bg-light-yellow text-dark-green text-2xl font-semibold -mx-[40px]  w-[calc(100%+80px)]"
+            className="hidden sm:grid place-content-center mt-[30px] h-[65px]  bg-light-yellow text-dark-green text-2xl font-semibold -mx-[40px]  w-[calc(100%+80px)] "
           >
             下一步
           </a>
