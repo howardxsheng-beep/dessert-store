@@ -21,11 +21,11 @@ function App() {
       {/* <SiteHeader/> */}
       {/* <Product/> */}
       {/* <Home/> */}
-      {/* <Login/> */}
+      <Login/>
       {/* <Cart/> */}
       {/* <Shipping/> */}
       {/* <CheckoutSuccess/> */}
-      <Payment/>
+      {/* <Payment/> */}
       {/* <MailDist/> */}
       
     </>
