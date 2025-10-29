@@ -1,4 +1,4 @@
-import { useState } from "react"; // ← 新增
+import { useState } from "react"; 
 
 function Invoice() {
   const [invoiceType, setInvoiceType] = useState("electronic");
@@ -138,12 +138,12 @@ function Invoice() {
             )}
           </form>
 
-          {/* 下一步 */}
+          {/* 確認結帳 */}
           <a
             href="#"
-            className="hidden sm:grid place-content-center mt-[30px] h-[65px]  bg-light-yellow text-dark-green text-2xl font-semibold -mx-[40px]  w-[calc(100%+80px)] "
+            className="hidden sm:grid place-content-center mt-[30px] h-[65px]  bg-light-yellow text-dark-green text-2xl font-semibold -mx-[40px]  w-[calc(100%+80px)]  hover:brightness-90 hover:text-[29px] "
           >
-            下一步
+            確認結帳
           </a>
         </div>
 
@@ -196,12 +196,12 @@ function Invoice() {
           </div>
         </div>
 
-        {/* 手機-下一步*/}
+        {/* 手機-確認結帳*/}
         <a
           href="#"
-          className="sm:hidden  grid h-[65px] w-full bg-light-yellow text-dark-green text-2xl font-semibold  place-items-center"
+          className="sm:hidden  grid h-[65px] w-full bg-light-yellow text-dark-green text-2xl font-semibold  place-items-center  hover:brightness-90 hover:text-[29px] "
         >
-          下一步
+          確認結帳
         </a>
       </div>
     </section>
