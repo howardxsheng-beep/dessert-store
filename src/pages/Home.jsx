@@ -1,3 +1,5 @@
+import { NavLink } from 'react-router-dom'
+
 function Home() {
   const CARDS = [
     {
@@ -42,11 +44,11 @@ function Home() {
         <div className=" w-full">
           <div className="mx-auto sm:mt-[-120px]  md:max-w-[780px] grid grid-cols-3 md:grid-cols-3 gap-[1px]">
             {CARDS.map(({ img, overlay, text, textColor }, i) => (
-              <a href="#">
               <div
                 key={i}
                 className="relative overflow-hidden w-full aspect-[125/180] sm:aspect-[259.67/256] group "
               >
+              <NavLink to="/product" >
                 <img
                   src={img}
                   alt=""
@@ -62,8 +64,8 @@ function Home() {
                     {text}
                   </span>
                 </div>
+              </NavLink>
               </div>
-              </a>
             ))}
           </div>
         </div>
@@ -76,7 +78,7 @@ function Home() {
             src="/images/sm-橫式-為什麼選擇了做甜點@2x.png"
           ></img>
         </div>
-        <div class="h-[250px] overflow-hidden">
+        <div className="h-[250px] overflow-hidden">
           <img
             className="w-full h-full object-cover block  object-center"
             src="images/pancake.png"
@@ -195,7 +197,7 @@ function Home() {
             className="border-surface-2 absolute top-5 right-6 w-[25px] h-auto "
           ></img>
           <div className="border-surface-2 border h-[56px] grid grid-cols-2">
-            <span class="border-surface-2 border-r flex justify-center items-center text-dark-green font-light text-body-lg ">
+            <span className="border-surface-2 border-r flex justify-center items-center text-dark-green font-light text-body-lg ">
               水果優格杯
             </span>
             <span className="text-body-lg font-semibold text-dark-green flex justify-center items-center ">
@@ -222,7 +224,7 @@ function Home() {
             className="border-surface-2 absolute top-5 right-6 w-[25px] h-auto "
           ></img>
           <div className="border-surface-2 border h-[56px] grid grid-cols-2">
-            <span class="border-surface-2 border-r flex justify-center items-center text-dark-green font-light text-body-lg ">
+            <span className="border-surface-2 border-r flex justify-center items-center text-dark-green font-light text-body-lg ">
               甜甜圈
             </span>
             <span className="text-body-lg font-semibold text-dark-green flex justify-center items-center ">
@@ -249,7 +251,7 @@ function Home() {
             className="border-surface-2 absolute top-5 right-6 w-[25px] h-auto "
           ></img>
           <div className="border-surface-2 border h-[56px] grid grid-cols-2">
-            <span class="border-surface-2 border-r flex justify-center items-center text-dark-green font-light text-body-lg ">
+            <span className="border-surface-2 border-r flex justify-center items-center text-dark-green font-light text-body-lg ">
               草莓派
             </span>
             <span className="text-body-lg font-semibold text-dark-green flex justify-center items-center ">

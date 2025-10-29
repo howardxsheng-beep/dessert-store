@@ -1,3 +1,5 @@
+import { NavLink, Link } from 'react-router-dom'
+
 function SiteHeader() {
   return (
     <>
@@ -35,9 +37,9 @@ function SiteHeader() {
     <div className="flex items-center gap-4">
       <nav className="hidden sm:flex">
         <ul className="flex items-center gap-8 pr-4  text-dark-green">
-          <li className="hover:scale-125 hover:brightness-120"><a href="#">首頁</a></li>
-          <li className="hover:scale-125 hover:brightness-120"><a href="#">甜點</a></li>
-          <li className="hover:scale-125 hover:brightness-120"><a href="#">登入</a></li>
+          <li className="hover:scale-125 hover:brightness-120"><NavLink className={({ isActive }) => ` ${isActive ? 'underline text-black' : ''}`} to="/" end>首頁</NavLink></li>
+          <li className="hover:scale-125 hover:brightness-120"><NavLink className={({isActive})=>`${isActive ? 'underline text-black': '' }`} to="/product" end>甜點</NavLink></li>
+          <li className="hover:scale-125 hover:brightness-120"><NavLink className={({isActive})=> `${isActive ? 'underline text-black':''}`} to="/login" end>登入</NavLink></li>
         </ul>
       </nav>
       <a href="#" className="flex justify-center w-[24px] h-[24px]">

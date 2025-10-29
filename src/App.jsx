@@ -12,6 +12,7 @@ import Shipping from './pages/Shipping'
 import CheckoutSuccess from './pages/CheckoutSuccess'
 import Payment from './pages/Payment'
 import Invoice from './pages/Invoice'
+import WebLayout from './router/WebLayout'
 
 
 function App() {
@@ -19,7 +20,12 @@ function App() {
 
   return (
     <>
-      {/* <SiteHeader/> */}
+      <SiteHeader/>
+        <WebLayout/>
+      <MailDist/>
+
+
+      {/* <Invoice/> */}
       {/* <Product/> */}
       {/* <Home/> */}
       {/* <Login/> */}
@@ -27,9 +33,8 @@ function App() {
       {/* <Shipping/> */}
       {/* <CheckoutSuccess/> */}
       {/* <Payment/> */}
-      {/* <MailDist/> */}
-      <Invoice/>
     </>
+    
   )
 }
 
