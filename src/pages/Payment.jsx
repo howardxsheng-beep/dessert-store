@@ -91,7 +91,7 @@ function Payment() {
           {/* 下一步 */}
           <a
             href="#"
-            className="hidden sm:grid place-content-center mt-[30px] h-[65px]  bg-light-yellow text-dark-green text-2xl font-semibold -mx-[40px]  w-[calc(100%+80px)]"
+            className="hidden sm:grid place-content-center mt-[30px] h-[65px]  bg-light-yellow text-dark-green text-2xl font-semibold -mx-[40px] hover:brightness-90 hover:text-[29px]  w-[calc(100%+80px)]"
           >
             下一步
           </a>
@@ -149,7 +149,7 @@ function Payment() {
         {/* 手機-下一步*/}
         <a
           href="#"
-          className="sm:hidden  grid h-[65px] w-full bg-light-yellow text-dark-green text-2xl font-semibold  place-items-center"
+          className="sm:hidden  grid h-[65px] w-full bg-light-yellow text-dark-green text-2xl font-semibold  place-items-center  hover:brightness-90 hover:text-[29px] "
         >
           下一步
         </a>

@@ -25,8 +25,8 @@ function App() {
       {/* <Login/> */}
       {/* <Cart/> */}
       {/* <Shipping/> */}
-      <CheckoutSuccess/>
-      {/* <Payment/> */}
+      {/* <CheckoutSuccess/> */}
+      <Payment/>
       {/* <MailDist/> */}
       {/* <Invoice/> */}
     </>
