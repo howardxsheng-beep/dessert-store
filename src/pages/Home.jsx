@@ -39,14 +39,14 @@ function Home() {
       {/* block1 */}
       <div className="   mx-auto max-w-[940px]">
         {/* bg-1 */}
-        <img src="images/home-banner-1.png" className="  w-full bg-cover"></img>
+        <img src="images/home-banner-1.png" className="w-full bg-cover"></img>
         {/* 三卡片 */}
         <div className=" w-full">
           <div className="mx-auto sm:mt-[-120px]  md:max-w-[780px] grid grid-cols-3 md:grid-cols-3 gap-[1px]">
             {CARDS.map(({ img, overlay, text, textColor }, i) => (
               <div
                 key={i}
-                className="relative overflow-hidden w-full aspect-[125/180] sm:aspect-[259.67/256] group "
+                className="relative overflow-hidden w-full aspect-[125/180] sm:aspect-[259.67/256] group"
               >
               <NavLink to="/product" >
                 <img
