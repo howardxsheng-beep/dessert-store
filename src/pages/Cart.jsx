@@ -1,3 +1,4 @@
+import { NavLink, Link } from "react-router-dom";
 function Cart() {
   return (
     <>
@@ -131,12 +132,12 @@ function Cart() {
               <p>NT$ 3,000</p>
             </div>
           </div>
-          <button
-            type="submit"
+          <NavLink
+            to="/payment"
             className=" hidden sm:flex h-[65px] w-full bg-light-yellow justify-center items-center text-dark-green text-2xl font-semibold hover:brightness-90 group cursor-pointer"
           >
-            <a className="group-hover:scale-110">結帳</a>
-          </button>
+            <span className="group-hover:scale-110">結帳</span>
+          </NavLink>
         </section>
         <button
           type="submit"

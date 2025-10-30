@@ -42,9 +42,9 @@ function SiteHeader() {
           <li className="hover:scale-125 hover:brightness-120"><NavLink className={({isActive})=> `${isActive ? 'underline text-black':''}`} to="/login" end>登入</NavLink></li>
         </ul>
       </nav>
-      <a href="#" className="flex justify-center w-[24px] h-[24px]">
+        <NavLink  to="/cart"  className={({isActive}) =>`flex justify-center w-[24px] h-[24px] ${isActive ? 'underline brightness-50' : ''}`}>
         <img className="hover:scale-125 hover:brightness-120" src="images/shopping_cart.png" alt="cart" />
-      </a>
+      </NavLink>
     </div>
   </div>
 </div>

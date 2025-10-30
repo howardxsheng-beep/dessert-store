@@ -1,3 +1,5 @@
+import { NavLink,Link } from "react-router-dom";
+
 function Payment() {
   return (
     <section className="w-full flex justify-center">
@@ -89,12 +91,12 @@ function Payment() {
           </form>
 
           {/* 下一步 */}
-          <a
-            href="#"
+          <NavLink
+            to="/invoice"
             className="hidden sm:grid place-content-center mt-[30px] h-[65px]  bg-light-yellow text-dark-green text-2xl font-semibold -mx-[40px] hover:brightness-90 hover:text-[29px]  w-[calc(100%+80px)]"
           >
             下一步
-          </a>
+          </NavLink>
         </div>
 
         <div
@@ -147,12 +149,11 @@ function Payment() {
         </div>
 
         {/* 手機-下一步*/}
-        <a
-          href="#"
-          className="sm:hidden  grid h-[65px] w-full bg-light-yellow text-dark-green text-2xl font-semibold  place-items-center  hover:brightness-90 hover:text-[29px] "
-        >
+        <NavLink
+          to="/invoice"
+          className="sm:hidden  grid h-[65px] w-full bg-light-yellow text-dark-green text-2xl font-semibold  place-items-center  hover:brightness-90 hover:text-[29px] ">
           下一步
-        </a>
+        </NavLink>
       </div>
     </section>
   );

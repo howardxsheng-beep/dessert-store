@@ -27,7 +27,7 @@ function App() {
 
       {/* <Invoice/> */}
       {/* <Product/> */}
-      {/* <Home/> */}
+      {/* <Home/>  */}
       {/* <Login/> */}
       {/* <Cart/> */}
       {/* <Shipping/> */}

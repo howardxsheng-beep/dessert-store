@@ -1,3 +1,4 @@
+import { NavLink, Link } from "react-router-dom";
 function CheckoutSuccess() {
   return (
     <section className="w-full flex justify-center">
@@ -25,16 +26,16 @@ function CheckoutSuccess() {
             <img src="images/lg-付款成功@2x.png" className="max-w-[190px] w-full mb-13"></img>
 
             {/* 桌機版按鈕 */}
-            <button className="hidden w-full sm:max-w-[300px] sm:inline-flex justify-center items-center mt-2 h-[65px]  bg-light-yellow text-dark-green text-xl font-semibold hover:brightness-90 hover:text-2xl">
+            <NavLink to="/" className="hidden w-full sm:max-w-[300px] sm:inline-flex justify-center items-center mt-2 h-[65px]  bg-light-yellow text-dark-green text-xl font-semibold hover:brightness-90 hover:text-2xl">
               繼續逛逛
-            </button>
+            </NavLink>
           </div>
         </div>
 
         {/* 手機按鈕 */}
-        <button className="sm:hidden h-[65px] w-full bg-light-yellow text-dark-green text-2xl font-semibold hover:brightness-90 hover:text-2xl">
+        <NavLink to="/" className="sm:hidden h-[65px] w-full bg-light-yellow text-dark-green text-2xl font-semibold hover:brightness-90 hover:text-2xl">
           繼續逛逛
-        </button>
+        </NavLink>
       </div>
     </section>
   );

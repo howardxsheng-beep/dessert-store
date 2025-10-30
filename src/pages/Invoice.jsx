@@ -1,5 +1,5 @@
 import { useState } from "react"; 
-
+import { NavLink,Link } from "react-router-dom";
 function Invoice() {
   const [invoiceType, setInvoiceType] = useState("electronic");
 
@@ -139,12 +139,12 @@ function Invoice() {
           </form>
 
           {/* 確認結帳 */}
-          <a
-            href="#"
+          <NavLink
+            to="/checkoutSuccess"
             className="hidden sm:grid place-content-center mt-[30px] h-[65px]  bg-light-yellow text-dark-green text-2xl font-semibold -mx-[40px]  w-[calc(100%+80px)]  hover:brightness-90 hover:text-[29px] "
           >
             確認結帳
-          </a>
+          </NavLink>
         </div>
 
         <div
@@ -197,12 +197,12 @@ function Invoice() {
         </div>
 
         {/* 手機-確認結帳*/}
-        <a
-          href="#"
+        <NavLink
+          to="/checkoutSuccess"
           className="sm:hidden  grid h-[65px] w-full bg-light-yellow text-dark-green text-2xl font-semibold  place-items-center  hover:brightness-90 hover:text-[29px] "
         >
           確認結帳
-        </a>
+        </NavLink>
       </div>
     </section>
   );

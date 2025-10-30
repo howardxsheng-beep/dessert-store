@@ -1,4 +1,8 @@
+import { useState } from 'react'
+
 function MailDist(){
+    const [showMsg, setShowMsg] = useState(false);
+
     return(
         <>
         <div className=" w-full flex justify-center items-center  bg-dark-green h-[186px] sm:h-[116px] ">
@@ -21,10 +25,14 @@ function MailDist(){
                     className="ml-3 w-full bg-transparent outline-none text-dark-green
                             placeholder:text-light-green"
                 />
-                <button type="submit" className="cursor-pointer flex flex-end w-[64px] h-[56px] bg-light-yellow hover:bg-yellow-300 group">
+                <button type="button" 
+                className="cursor-pointer flex flex-end w-[64px] h-[56px] bg-light-yellow hover:bg-yellow-300 group"
+
+                >
                     <img className="mx-auto my-auto w-4 h-4 group-hover:scale-120 " src="images/arrow_forward-24px.png"></img>
                 </button>
                 </div>
+
             </div>
         </div>
         
